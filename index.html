@@ -3,239 +3,338 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>URK Infraprojects - Leading Construction Company</title>
+    <title>URK Infraprojects - Best Construction Company in Bangalore</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <span class="welcome-text">Welcome to URK Infraprojects</span>
+                <div class="top-bar-right">
+                    <span class="phone-number">📞 +91 0000000000</span>
+                    <button class="btn btn-quote-small">Get Free Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <div class="header__content">
-                <div class="header__logo">
+            <div class="header-content">
+                <div class="logo">
                     <h1>URK Infraprojects</h1>
                 </div>
-                <nav class="header__nav">
-                    <a href="#home" class="nav-link">Home</a>
-                    <a href="#services" class="nav-link">Services</a>
-                    <a href="#packages" class="nav-link">Packages</a>
-                    <a href="#about" class="nav-link">About</a>
-                    <a href="#contact" class="nav-link">Contact</a>
+                <nav class="navigation">
+                    <ul class="nav-menu">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#projects">Our Projects</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
                 </nav>
-                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-                    <span class="theme-toggle__icon">🌙</span>
-                </button>
             </div>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://user-gen-media-assets.s3.amazonaws.com/seedream_images/8da7210b-ee80-4936-9f15-ff991385d4f5.png'); background-size: cover; background-position: center; background-attachment: fixed;">
         <div class="container">
-            <div class="hero__content">
-                <h2 class="hero__title">Building Dreams, Creating Realities</h2>
-                <p class="hero__subtitle">Leading construction and real estate company with years of experience in bringing dreams to reality</p>
-                <div class="hero__actions">
-                    <a href="#contact" class="btn btn--primary btn--lg">Get Started</a>
-                    <a href="#services" class="btn btn--outline btn--lg">Our Services</a>
+            <div class="hero-content">
+                <h1 class="hero-title">Meet the Best Construction Company in Bangalore</h1>
+                <button class="btn btn-primary btn-large">GET FREE QUOTE</button>
+                <h2 class="hero-subtitle">Top Construction Company & Contractors in Bangalore</h2>
+                
+                <div class="hero-description">
+                    <h3>Your Dream, We Construct</h3>
+                    <p>We understand that constructing a residential or commercial building in Bangalore is one of the biggest financial investments for anyone. URK Infraprojects is a top-class construction company and construction contractors in Bangalore that promises to deliver innovative construction, on-time delivery, and budget transparency. We are a team of highly skilled engineers, architects, and designers who provide comprehensive construction solutions under one roof. Since 2007, we have successfully completed premium quality residential and commercial building constructions in Bangalore.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Why Choose Us Section -->
-    <section class="why-choose-us">
+    <!-- Why Choose Section -->
+    <section class="why-choose" id="about">
         <div class="container">
-            <h2 class="section-title">Why Choose Us</h2>
+            <h2 class="section-title">Why Choose URK Infraprojects?</h2>
             <div class="features-grid">
                 <div class="feature-card">
-                    <h3>15+ Years of Experience</h3>
-                    <p>Decades of expertise in construction and real estate development</p>
+                    <div class="feature-icon">🏗️</div>
+                    <h4>End to End construction</h4>
                 </div>
                 <div class="feature-card">
-                    <h3>Quality Materials & Workmanship</h3>
-                    <p>We use only the finest materials and skilled craftsmen</p>
+                    <div class="feature-icon">💰</div>
+                    <h4>Money Safety</h4>
                 </div>
                 <div class="feature-card">
-                    <h3>On-Time Project Delivery</h3>
-                    <p>Committed to delivering projects within agreed timelines</p>
+                    <div class="feature-icon">❌</div>
+                    <h4>Zero Cancellation</h4>
                 </div>
                 <div class="feature-card">
-                    <h3>Competitive Pricing</h3>
-                    <p>Best value for money with transparent pricing</p>
+                    <div class="feature-icon">🔍</div>
+                    <h4>Transparency</h4>
                 </div>
                 <div class="feature-card">
-                    <h3>24/7 Customer Support</h3>
-                    <p>Round-the-clock support for all your queries</p>
+                    <div class="feature-icon">👥</div>
+                    <h4>No Subcontractors</h4>
                 </div>
                 <div class="feature-card">
-                    <h3>Licensed & Insured</h3>
-                    <p>Fully licensed and insured for your peace of mind</p>
+                    <div class="feature-icon">💵</div>
+                    <h4>Competitive Pricing</h4>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h4>High-Quality Design</h4>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h4>Hassle-Free Service</h4>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services">
+    <section class="services" id="services">
         <div class="container">
             <h2 class="section-title">Our Services</h2>
             <div class="services-grid">
-                <div class="service-card card">
-                    <div class="card__body">
-                        <h3>Residential Construction</h3>
-                        <p>Complete residential construction services from foundation to finishing. We build homes that reflect your lifestyle and preferences with attention to every detail.</p>
-                        <ul class="service-features">
-                            <li>Custom home design</li>
-                            <li>Renovation & remodeling</li>
-                            <li>Interior finishing</li>
-                            <li>Landscape design</li>
-                        </ul>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/53daa320-2960-4dd2-8294-86e1fd9339ea.png" alt="Residential Construction" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h4>Residential Construction</h4>
+                        <p>URK Infraprojects- Bangalore's one of best residential construction company, provides you best of all construction facility under one roof. We offer turnkey construction of your dream house, apartments, villa, farm house and other.</p>
+                        <button class="btn btn-outline">VIEW DETAILS</button>
                     </div>
                 </div>
-                <div class="service-card card">
-                    <div class="card__body">
-                        <h3>Commercial Construction</h3>
-                        <p>Professional commercial construction services for offices, retail spaces, and industrial buildings. Built to last with modern construction techniques.</p>
-                        <ul class="service-features">
-                            <li>Office buildings</li>
-                            <li>Retail spaces</li>
-                            <li>Warehouses</li>
-                            <li>Industrial facilities</li>
-                        </ul>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/2017a08f-d2f7-44ce-97a2-08e5086514a1.png" alt="Commercial Construction" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h4>Commercial Construction</h4>
+                        <p>URK Infraprojects- Bangalore's one of best commercial construction company, provides you best of all construction facility under one roof. We offer turnkey construction of Commercial Complex, Corporate Office, Showroom, Retail Outlet, Industry, Factory, Hotel and Resort.</p>
+                        <button class="btn btn-outline">VIEW DETAILS</button>
                     </div>
                 </div>
-                <div class="service-card card">
-                    <div class="card__body">
-                        <h3>Interior Design</h3>
-                        <p>Creative interior design solutions that transform spaces into functional and beautiful environments tailored to your taste and requirements.</p>
-                        <ul class="service-features">
-                            <li>Space planning</li>
-                            <li>Furniture selection</li>
-                            <li>Color coordination</li>
-                            <li>Lighting design</li>
-                        </ul>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/d19aff28-bf91-4f79-b7fb-1891591c99b3.png" alt="Villa Constructions" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h4>Villa Constructions</h4>
+                        <p>URK Infraprojects- Bangalore's one of best villa construction company, provides you best of all construction facility under one roof. We offer turnkey construction of luxury villas, modern villas, and custom designed villas with swimming pools and gardens.</p>
+                        <button class="btn btn-outline">VIEW DETAILS</button>
                     </div>
                 </div>
-                <div class="service-card card">
-                    <div class="card__body">
-                        <h3>Project Management</h3>
-                        <p>Comprehensive project management ensuring smooth execution from conception to completion with regular updates and quality control.</p>
-                        <ul class="service-features">
-                            <li>Project planning</li>
-                            <li>Budget management</li>
-                            <li>Quality assurance</li>
-                            <li>Timeline coordination</li>
-                        </ul>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/8da7210b-ee80-4936-9f15-ff991385d4f5.png" alt="Compound Wall" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h4>Compound Wall</h4>
+                        <p>URK Infraprojects provides professional compound wall construction services in Bangalore. We offer various designs and materials for compound walls including precast walls, brick walls, and decorative boundary walls.</p>
+                        <button class="btn btn-outline">VIEW DETAILS</button>
                     </div>
                 </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/95e214c1-342d-4c0d-a747-8438315c8634.png" alt="Architectural Design" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h4>Architectural Design</h4>
+                        <p>Our expert architectural design team creates innovative and functional designs for residential and commercial projects. We provide comprehensive architectural planning, 3D modeling, and detailed blueprints for construction projects.</p>
+                        <button class="btn btn-outline">VIEW DETAILS</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/53daa320-2960-4dd2-8294-86e1fd9339ea.png" alt="Turnkey House Construction" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h4>Turnkey House Construction</h4>
+                        <p>Complete turnkey house construction services from foundation to finishing. We handle everything including design, approvals, construction, electrical, plumbing, and interior work to deliver your dream home ready to move in.</p>
+                        <button class="btn btn-outline">VIEW DETAILS</button>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="#" class="view-all-link">View All</a>
             </div>
         </div>
     </section>
 
-    <!-- Our Process Section -->
-    <section class="process">
+    <!-- How It Works Section -->
+    <section class="how-it-works">
         <div class="container">
-            <h2 class="section-title">Our Process</h2>
+            <h2 class="section-title">How It Works</h2>
             <div class="process-steps">
                 <div class="process-step">
-                    <div class="process-step__number">1</div>
-                    <div class="process-step__content">
-                        <h3>Consultation</h3>
-                        <p>Initial meeting to understand your requirements and vision</p>
-                    </div>
+                    <div class="step-number">1</div>
+                    <p>Consultation</p>
                 </div>
                 <div class="process-step">
-                    <div class="process-step__number">2</div>
-                    <div class="process-step__content">
-                        <h3>Design & Planning</h3>
-                        <p>Detailed architectural planning and design development</p>
-                    </div>
+                    <div class="step-number">2</div>
+                    <p>Planning</p>
                 </div>
                 <div class="process-step">
-                    <div class="process-step__number">3</div>
-                    <div class="process-step__content">
-                        <h3>Construction</h3>
-                        <p>Quality construction with regular progress updates</p>
-                    </div>
+                    <div class="step-number">3</div>
+                    <p>Design</p>
                 </div>
                 <div class="process-step">
-                    <div class="process-step__number">4</div>
-                    <div class="process-step__content">
-                        <h3>Handover</h3>
-                        <p>Final inspection and project handover with warranty</p>
+                    <div class="step-number">4</div>
+                    <p>Approval</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <p>Construction</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">6</div>
+                    <p>Handover</p>
+                </div>
+            </div>
+            <div class="process-description">
+                <h3>Raise a request</h3>
+                <p>Get in touch with us to discuss your construction needs. Our team will guide you through every step of the process.</p>
+                <button class="btn btn-primary">LET'S BUILD</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Packages -->
+    <section class="pricing">
+        <div class="container">
+            <h2 class="section-title">Our Pricing Packages</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h4>Regular Package</h4>
+                    <div class="price">
+                        <span class="currency">Rs.</span>
+                        <span class="amount">1649</span>
+                        <span class="unit">/Sq.Ft</span>
                     </div>
+                    <p>Regular construction package starts from Rs. 1495/Sq. Ft and it is ideal for compact house.</p>
+                    <button class="btn btn-outline">View More</button>
+                </div>
+                <div class="pricing-card">
+                    <h4>Luxury Package</h4>
+                    <div class="price">
+                        <span class="currency">Rs.</span>
+                        <span class="amount">1849</span>
+                        <span class="unit">/Sq.Ft</span>
+                    </div>
+                    <p>Standard construction package starts from Rs. 1690/Sq. Ft and it is ideal for luxuries house.</p>
+                    <button class="btn btn-outline">View More</button>
+                </div>
+                <div class="pricing-card">
+                    <h4>Premium Package</h4>
+                    <div class="price">
+                        <span class="currency">Rs.</span>
+                        <span class="amount">1999</span>
+                        <span class="unit">/Sq.Ft</span>
+                    </div>
+                    <p>Pro construction package starts from Rs. 1859/Sq. Ft and it is ideal for compact house.</p>
+                    <button class="btn btn-outline">View More</button>
+                </div>
+                <div class="pricing-card">
+                    <h4>Luxury + Package</h4>
+                    <div class="price">
+                        <span class="currency">Rs.</span>
+                        <span class="amount">2199</span>
+                        <span class="unit">/Sq.Ft</span>
+                    </div>
+                    <p>Pro construction package starts from Rs. 1859/Sq. Ft and it is ideal for compact house.</p>
+                    <button class="btn btn-outline">View More</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Packages sec -->
-
-    <section id="packages" class="packages">
+    <!-- Statistics Section -->
+    <section class="statistics">
         <div class="container">
-            <h2 class="section-title">Our Packages</h2>
-            <div class="packages-grid">
-                <div class="package-card card">
-                    <div class="card__header">
-                        <h3>Basic Package</h3>
-                        <div class="package-price">₹15,00,000</div>
-                    </div>
-                    <div class="card__body">
-                        <p>Perfect for small scale residential and commercial projects</p>
-                        <ul class="package-features">
-                            <li>Basic design consultation</li>
-                            <li>Standard materials</li>
-                            <li>6-month warranty</li>
-                            <li>Project management included</li>
-                        </ul>
-                        <button class="btn btn--primary btn--full-width">Choose Plan</button>
-                    </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Business Years</div>
                 </div>
-                <div class="package-card card package-card--featured">
-                    <div class="card__header">
-                        <!-- <div class="package-badge">Most Popular</div> -->
-                        <h3>Standard Package</h3>
-                        <div class="package-price">₹25,00,000</div>
-                    </div>
-                    <div class="card__body">
-                        <p>Ideal for large scale residential and commercial projects</p>
-                        <ul class="package-features">
-                            <li>Comprehensive design service</li>
-                            <li>Premium materials</li>
-                            <li>1-year warranty</li>
-                            <li>Dedicated project manager</li>
-                        </ul>
-                        <button class="btn btn--primary btn--full-width">Choose Plan</button>
-                    </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Money Safety</div>
                 </div>
-                <div class="package-card card">
-                    <div class="card__header">
-                        <h3>Premium Package</h3>
-                        <div class="package-price">₹40,00,000</div>
-                    </div>
-                    <div class="card__body">
-                        <p>Best suited for large scale residential and commercial projects</p>
-                        <ul class="package-features">
-                            <li>Full design & consultation</li>
-                            <li>Luxury materials</li>
-                            <li>2-year warranty</li>
-                            <li>VIP project management</li>
-                        </ul>
-                        <button class="btn btn--primary btn--full-width">Choose Plan</button>
-                    </div>
+                <div class="stat-card">
+                    <div class="stat-number">190+</div>
+                    <div class="stat-label">Completed Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">79+</div>
+                    <div class="stat-label">Ongoing Projects</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Our Projects Section -->
+    <section class="projects" id="projects">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">About URK Infraprojects</h2>
-                    <p>Dream Value Realtors is a leading construction and real estate company with years of experience in bringing dreams to reality. We specialize in residential and commercial projects, providing end-to-end solutions with quality craftsmanship and customer satisfaction.</p>
-                    <p>Our team of experienced professionals is committed to delivering excellence in every project, ensuring that your vision becomes a beautiful reality within your budget and timeline.</p>
+            <h2 class="section-title">Our Projects</h2>
+            <p class="projects-subtitle">Here you find our latest projects that we did and are doing</p>
+            <div class="projects-gallery">
+                <div class="project-item">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/53daa320-2960-4dd2-8294-86e1fd9339ea.png" alt="Luxury Residential Project" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>Luxury Residential Project</h4>
+                        <p>Modern residential construction with premium finishes</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/2017a08f-d2f7-44ce-97a2-08e5086514a1.png" alt="Commercial Office Complex" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>Commercial Office Complex</h4>
+                        <p>State-of-the-art commercial building design</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/d19aff28-bf91-4f79-b7fb-1891591c99b3.png" alt="Luxury Villa with Pool" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>Luxury Villa with Pool</h4>
+                        <p>Elegant villa construction with swimming pool and landscaping</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/8da7210b-ee80-4936-9f15-ff991385d4f5.png" alt="Construction Site Management" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>Construction Site Management</h4>
+                        <p>Professional construction site with modern equipment</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/95e214c1-342d-4c0d-a747-8438315c8634.png" alt="Architectural Planning" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>Architectural Planning</h4>
+                        <p>Detailed architectural designs and blueprints</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/53daa320-2960-4dd2-8294-86e1fd9339ea.png" alt="Modern House Construction" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>Modern House Construction</h4>
+                        <p>Contemporary residential construction project</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -246,96 +345,64 @@
         <div class="container">
             <h2 class="section-title">What Our Clients Say</h2>
             <div class="testimonials-grid">
-                <div class="testimonial-card card">
-                    <div class="card__body">
-                        <div class="testimonial-rating">★★★★★</div>
-                        <p>"Excellent service and professional work. Highly recommended!"</p>
-                        <div class="testimonial-author">— John Doe</div>
+                <div class="testimonial-card">
+                    <p>"There was my sister's wedding after one year and we wanted our complete home before that. We were amazed when the deadline was met precisely, including finishing, inspections, and cleanup. Hiring URK Infraprojects was my wisest decision. They develop innovative design concepts and provide suggestions that always make the resulting projects better."</p>
+                    <div class="testimonial-author">
+                        <strong>Nithin</strong>
+                        <span>Best Construction Company</span>
                     </div>
                 </div>
-                <div class="testimonial-card card">
-                    <div class="card__body">
-                        <div class="testimonial-rating">★★★★★</div>
-                        <p>"They delivered our project on time and within budget. Great experience!"</p>
-                        <div class="testimonial-author">— Jane Smith</div>
+                <div class="testimonial-card">
+                    <p>"The entire team of URK Infraprojects performed very professionally with great communication and excellent onsite project management. They earned our trust during our house construction journey. I wholeheartedly thank them."</p>
+                    <div class="testimonial-author">
+                        <strong>Prathibha</strong>
+                        <span>Excellent Work..!</span>
                     </div>
                 </div>
-                <div class="testimonial-card card">
-                    <div class="card__body">
-                        <div class="testimonial-rating">★★★★★</div>
-                        <p>"Outstanding quality and attention to detail. Our dream home became reality!"</p>
-                        <div class="testimonial-author">— Rajesh Kumar</div>
+                <div class="testimonial-card">
+                    <p>"URK Infraprojects has all the necessary attributes to be an excellent contractor. They are diligent, responsive, professional and yet very understanding with their clients. With their FREE consultation, they offer cost-saving alternatives when possible. We are deeply satisfied with the work and the professionalism he brings to the job."</p>
+                    <div class="testimonial-author">
+                        <strong>Vinu</strong>
+                        <span>Thank You..! URK Infraprojects</span>
                     </div>
                 </div>
-                <div class="testimonial-card card">
-                    <div class="card__body">
-                        <div class="testimonial-rating">★★★★★</div>
-                        <p>"Professional team, transparent pricing, and excellent project management."</p>
-                        <div class="testimonial-author">— Priya Sharma</div>
-                    </div>
-                </div>
+            </div>
+            <div class="company-description">
+                <p>URK Infraprojects, provide you best construction service within aggressive pricing in this competitive industry. The material used for construction are all high and standard quality. We always make sure that you get best things available for your hard-earn money.</p>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <!-- Contact Form Section -->
+    <section class="contact-form" id="contact">
         <div class="container">
-            <h2 class="section-title">Contact Us</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <div class="contact-item">
-                        <strong>Address:</strong>
-                        <p> Bangalore, Karnataka</p>
-                    </div>
-                    <div class="contact-item">
-                        <strong>Phone:</strong>
-                        <p>+91 0000000000</p>
-                    </div>
-                    <div class="contact-item">
-                        <strong>Email:</strong>
-                        <p>info@urkinfraprojects.com</p>
-                    </div>
-                    <div class="social-media">
-                        <strong>Follow Us:</strong>
-                        <div class="social-links">
-                            <a href="#" class="social-link">Facebook</a>
-                            <a href="#" class="social-link">Instagram</a>
-                            <a href="#" class="social-link">LinkedIn</a>
-                            <a href="#" class="social-link">Twitter</a>
-                        </div>
+            <h2 class="section-title">Get Closer To Your Dream Home</h2>
+            <form class="contact-form-wrapper" id="contactForm">
+                <div class="form-row">
+                    <select class="form-control" name="service" required>
+                        <option value="">Select Service</option>
+                        <option value="residential">Residential Construction</option>
+                        <option value="commercial">Commercial Construction</option>
+                        <option value="villa">Villa Constructions</option>
+                        <option value="compound">Compound Wall</option>
+                        <option value="architectural">Architectural Design</option>
+                        <option value="turnkey">Turnkey House Construction</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <textarea class="form-control" name="message" placeholder="Your Message" rows="4" required></textarea>
+                </div>
+                <div class="recaptcha-placeholder">
+                    <div class="recaptcha-box">
+                        <input type="checkbox" id="recaptcha" required>
+                        <label for="recaptcha">I'm not a robot</label>
+                        <div class="recaptcha-icon">🤖</div>
                     </div>
                 </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" id="name" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" id="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone" class="form-label">Phone</label>
-                        <input type="tel" id="phone" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="service" class="form-label">Service Interested In</label>
-                        <select id="service" class="form-control">
-                            <option value="">Select a service</option>
-                            <option value="residential">Residential Construction</option>
-                            <option value="commercial">Commercial Construction</option>
-                            <option value="interior">Interior Design</option>
-                            <option value="management">Project Management</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea id="message" class="form-control" rows="4" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
-                </form>
+                <button type="submit" class="btn btn-primary btn-full-width">Request A Call Back</button>
+            </form>
+            <div class="form-success" id="formSuccess">
+                <p>✅ Thank you! We will get back to you soon.</p>
             </div>
         </div>
     </section>
@@ -345,37 +412,45 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>URK Infraprojects</h3>
-                    <p>Building dreams, creating realities with quality craftsmanship and customer satisfaction.</p>
+                    <h4>URK Infraprojects</h4>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
                 <div class="footer-section">
                     <h4>Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#packages">Packages</a></li>
+                    <ul>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#projects">Our Projects</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul class="footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
                         <li><a href="#">Residential Construction</a></li>
                         <li><a href="#">Commercial Construction</a></li>
-                        <li><a href="#">Interior Design</a></li>
-                        <li><a href="#">Project Management</a></li>
+                        <li><a href="#">Villa Constructions</a></li>
+                        <li><a href="#">Compound Wall</a></li>
+                        <li><a href="#">Architectural Design</a></li>
+                        <li><a href="#">Turnkey House Construction</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Contact Info</h4>
-                    <p>Bangalore, Karnataka-</p>
-                    <p>Phone: +91 0000000000</p>
-                    <p>Email: info@urkinfraprojects.com</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka</p>
+                        <p><i class="fas fa-phone"></i> +91 0000000000</p>
+                        <p><i class="fas fa-envelope"></i> care@urk-infraprojects.com</p>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 URK Infraprojects. All rights reserved.</p>
+                <p>&copy; URK Infraprojects © 2025. All Rights Reserved. | Designed by Marketing Panthers</p>
             </div>
         </div>
     </footer>

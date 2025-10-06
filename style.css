@@ -1071,7 +1071,7 @@ p {
 
 .hero-title {
   font-size: clamp(var(--font-size-3xl), 5vw, 48px);
-  color: white;
+  color: rgb(255, 210, 0);
   margin-bottom: var(--space-24);
   font-weight: var(--font-weight-bold);
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
